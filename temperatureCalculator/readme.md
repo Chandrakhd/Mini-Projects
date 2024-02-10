@@ -8,8 +8,8 @@ Also shows the current time and date.
 
 Built using html, css and javascript.
 
-![](image/TemperatureCalculator.gif)
-![](image/temperatureCalculatorImage.png)
+![](images/TemperatureCalculator.gif)
+![](images/temperatureCalculatorImage.png)
 
 ```Javascript
 // Formula used to calculate from celsius to fahrenheit
