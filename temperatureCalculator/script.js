@@ -10,7 +10,7 @@ const date = new Date();
 const options = { weekday: "long" };
 const dayName = date.toLocaleDateString(undefined, options);
 
-const currDate = date.toLocaleDateString().log;
+const currDate = date.toLocaleDateString();
 currentDate.innerHTML = currDate ?? "Not available";
 currentDay.innerHTML = dayName ?? "Not available";
 
