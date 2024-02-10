@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header_date flex">
+        <p class="currentTime">10:11Am</p>
+        <div class="date">
+          <p class="currentDate">00/0/0000</p>
+          <p class="day"></p>
+        </div>
+      </div>
+      <h1 class="main_header">Temperature Convertor</h1>
+
+      <div class="result">
+        <p id="tempResult">23deg</p>
+      </div>
+      <div class="userInput_container">
+        <div class="temp_inputs">
+          <label for="tempInput">Degree</label>
+          <input type="number" id="tempInput" placeholder="Enter Temperature" />
+        </div>
+        <div class="temp_types">
+          <label for="temp_type">Select Type</label>
+          <select name="temp" id="temp_type">
+            <option value="fahrenheit" id="fahrenheit">To Fahrenheit</option>
+            <option value="celsius" id="celsius">To Celsius</option>
+          </select>
+        </div>
+      </div>
+      <p class="error"></p>
+      <button id="calculateBtn">Calculate</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
